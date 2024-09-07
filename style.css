@@ -1,0 +1,323 @@
+*{
+    top: 0%;
+    padding: 0;
+    font-family: 'Helvetica Neue';
+}
+body{
+    overflow-x: hidden;
+}
+
+.main{
+  width: 132%;
+  height: 100vh;
+  background: url(https://cdn.mos.cms.futurecdn.net/rDJegQJaCyGaYysj2g5XWY-970-80.jpg.webp);
+  background-repeat: none;
+  background-size: cover;
+ margin-left: -16%;
+ border-bottom-left-radius: 20px;
+
+}
+
+.box{
+    height: 100vh;
+    width: 100%;
+    opacity: 0.8;
+    background-color: black;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -30px;
+}
+.buttons1{
+    margin-right: 70px;
+    border: 0;
+    outline: 0;
+}
+#btn1{
+    transition: background-color 0.3s,border-color 0.3s;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: 1px solid #333;
+    font-size: 20px;
+width: 170px;
+height: 50px;
+margin-top: -100px;
+
+
+}
+#btn1:hover{
+    background-color: #333;
+    border-color: #666;
+}
+#btn2{
+    background-color: #E50914;
+    color: white;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: 1px solid #333;
+    font-size: 20px;
+    width: 120px;
+height: 50px;
+
+
+
+}
+#head1{
+    padding-top: 90px;
+    margin-left: 28%;
+    font-size: 100px;
+}
+#head2{
+    margin-left: 40%;
+    color:white ;
+}
+#head3{
+    color: white;
+    margin-left: 28%;
+    padding-top: 15px;
+}
+.button3{
+    margin-left: 30%;
+    padding-top: 20px;
+    
+}
+#btn4{
+    background-color: #E50914;
+    padding: 10px 25px;
+    color: white;
+    margin-left: 10px;
+    font-size: 30px;
+border-radius: 5px;
+cursor: pointer;
+height: 70px;
+width:280px ;
+padding-top: 1px;
+
+
+}
+.email-input{
+    padding: 10px 25px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 500px;
+    background-color: black;
+    margin-left: -40px;
+    height: 70px;
+
+}
+.body2{
+    background-color: black;
+    height: 400vh;
+    margin-top: -1px;
+}
+#head4{
+    margin-left: 190px;
+color: white;
+padding-top: 80px;
+}
+.button5{
+    margin-left: 250px;
+}
+#btn6{
+    transition: background-color 0.3s,border-color 0.3s;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: 1px solid #333;
+    font-size: 20px;
+width: 100px;
+height: 50px;
+margin-top: -100px;
+
+}
+.maincards{
+    display: flex;
+    margin-left: -3%;
+    padding-top: 30px;
+    height: 390px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.maincards #cardimg:hover{
+    transition: tranform 0.3s ease;
+    transform: scale(1.2);
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    column-gap: 20px;
+    padding-top: 20px;
+    margin-left: 250px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+}
+.card{
+    margin-left: 50px;
+}
+#grid1{
+    background-color: rgb(34, 2, 34);
+
+    height: 450px;
+    border-radius: 25px;
+
+
+}
+
+#grid2{
+    background-color: rgb(34, 2, 34);
+
+
+    height: 450px;
+    border-radius: 25px;
+
+
+}
+
+#grid3{
+    background-color: rgb(34, 2, 34);
+
+
+
+    height: 450px;
+    border-radius: 25px;
+
+}
+
+#grid4{
+    background-color: rgb(34, 2, 34);
+
+
+
+    height: 450px;
+    border-radius: 25px;
+
+}
+.grid2{
+    grid-template-columns: repeat(1,auto);
+    row-gap: 10px;
+display: grid;
+    margin-left: 200px;
+    margin-right: 200px;
+    cursor: pointer;
+
+}
+#faq1{
+    background-color: #333;
+    height: 130px;
+    margin-left: 50px;
+}
+#faq2{
+    background-color: #333;
+    height: 130px;
+    margin-left: 50px;
+}
+#faq3{
+    background-color: #333;
+    height: 130px;
+    margin-left: 50px;
+}
+#faq4{
+    background-color: #333;
+    height: 130px;
+    margin-left: 50px;
+}
+#faq5{
+    background-color: #333;
+    height: 130px;
+    margin-left: 50px;
+}
+#faq6{
+    background-color: #333;
+    height: 130px;
+    margin-left: 50px;
+}
+#faq1:hover{
+    background-color: #666;
+}
+#faq2:hover{
+    background-color: #666;
+}
+#faq3:hover{
+    background-color: #666;
+}
+#faq4:hover{
+    background-color: #666;
+}
+#faq5:hover{
+    background-color: #666;
+}
+#faq6:hover{
+    background-color: #666;
+}
+#head4{
+    color: white;
+    margin-left: 25%;
+    padding-top: 15px;
+
+}
+.semail{
+    padding-top: 100px;
+}
+.email-input1{
+    padding: 10px 25px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 750px;
+    background-color: black;
+    margin-left: -40px;
+    height: 70px;
+
+}
+.button31{
+    margin-left: 20%;
+    padding-top: 20px;
+    
+}
+.contact a{
+color: gray;
+}
+footer{
+    display: flex;
+    margin-left: 90px;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+footer a{
+    color: gray;
+    line-height: 2.2;
+    font-size: 20px;
+}
+#subhead{
+    margin-left: 250px;
+    color: white;
+    padding-top: 80px;
+    }
+    #subhead1{
+        margin-left: 250px;
+        color: white;
+        padding-top: 90px;
+        }
+        #subhead2{
+            margin-left: 250px;
+            color: white;
+            padding-top: 80px;
+            }
+            
+@media(max-width:760px){    
+
+
+.maincards{
+    display: block;
+}
+}
+
